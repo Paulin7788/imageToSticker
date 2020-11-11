@@ -22,67 +22,68 @@ Best regards, Yoga Sakti.`
 
 exports.textMenu = (pushname) => {
     return `
-Hi, ${pushname}! 👋️
-Berikut adalah beberapa fitur yang ada pada bot ini!✨
+Eae, ${pushname} seu arrombado! 👋️
+Alguns comandos que o bot do pai faz!✨
 
-Sticker Creator:
+Criador de figurinha:
 1. *#sticker*
-Untuk merubah gambar menjadi sticker. 
-Penggunaan: kirim gambar dengan caption #sticker atau balas gambar yang sudah dikirim dengan #sticker
+Pra transformar a foto em figurinha. 
+Use: Envie uma imagem com legenda ou responda uma com #sticker
 
 2. *#sticker* _<Url Gambar>_
-Untuk merubah gambar dari url menjadi sticker. 
-Penggunaan: 
+Para mudar a imagem de url para adesivo.
+Usar: *#sticker* _<Url>_
 
 3. *#gifsticker* _<Giphy URL>_ / *#stickergif* _<Giphy URL>_
-Untuk merubah gif menjadi sticker (Giphy Only)
-Penggunaan: Kirim pesan dengan format *gifsticker https://media.giphy.com/media/JUvI2c1ddyzkwK4RlV/giphy.gif*
+Para transformar um GIF em uma figruinha animada(somente Giphy.com)
+Uso: enviar mensagens em formato *#gifsticker* _<Giphy URL>_ / *#stickergif* _<Giphy URL>_
 
-4. *#memesticker* _<teks atas>_ | _<teks bawah>_
-Untuk membuat sticker meme dengan teks atas dan bawah
-Penggunaan: kirim gambar dengan caption _*#meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
+4. *#memesticker* _<teks superior>_ | _<teks inferior>_
+Para fazer um meme de adesivo com texto superior e inferior
+Uso: enviar fotos com legendas: envie uma foto com a legenda #meme <teks superior>_ | _<teks inferior>, ou você também pode responder a uma imagem existente
 
 Downloader:
 1. *#tiktok* _<tiktok url>_
-Untuk mengunduh video dari video tiktok.
-Penggunaan: kirim pesan dengan format *#tiktok https://www.tiktok.com/@itsandani/video/6869248690381425922* 
+Pra baixar os videos dessa merda de tique teko.
+Uso: neste seguinte formato *#tiktok _<tiktok url>_
 
 2. *#fb* _<post/video url>_
-Untuk mengunduh video dari Facebook.
-Penggunaan: kirim pesan dengan format *#fb https://www.facebook.com/.....*
+Para baixar videos do Facebook(perae tu e um veio?).
+Uso: neste seguinte formato *#fb https://www.facebook.com/.....*
 
 3. *#ig* _<instagram post url>_
-Untuk mengunduh photo dan video dari instagram.
-Penggunaan: kirim pesan dengan format *#ig https://www.instagram.com/p/BPOd1vhDMIp/*
+Para baixar videos do instagram.
+Uso: neste seguinte formato *#ig https://www.instagram.com/*
 
 4. *#twt* _<twitter post url>_
-Untuk mengunduh photo dan video dari Twitter.
-Penggunaan: kirim pesan dengan format *#twt https://twitter.com/ntsana_/status/1306108656887324672*
-
-Lain-lain:
+Para baixar videos do Twitter(perae tem militante usando meu bot?).
+Uso:Este seguinte formato *#twt https://twitter.com/*
+    
+Outros comandos:
 1. *#translate* _<kode bahasa>_
-Untuk mengartikan pesan menjadi bahasa yang ditentukan.
-Penggunaan: Balas/quote/reply pesan yang ingin kamu translate dengan _*#translate id*_ <- id adalah kode bahasa. kode bahasa dapat dilihat di *https://bit.ly/33FVldE*
+Para traduzir mensagens no idioma especifado.
+Usar: Responda / cite / responda a mensagem com a qual deseja traduzir _*#translate id*_ <- 
+id é o código do idioma.o código da linguagem pode ser visto em *https://bit.ly/33FVldE*
 
 2. *#resi* _<kurir>_ _<nomer resi>_
-Untuk memeriksa status pengiriman barang, daftar kurir: jne, pos, tiki, wahana, jnt, rpx, sap, sicepat, pcp, jet, dse, first, ninja, lion, idl, rex.
-Penggunaan: kirim pesan dengan format _*#resi jne 1238757632*_
+Para verificar o status de entrega de mercadorias, lista de mensageiros: jne, pos, tiki, wahana, jnt, rpx, sap, sicepat, pcp, jet, dse, first, ninja, lion, idl, rex.
+Usar: enviar mensagens com o formato _*#resi jne 1238757632*_
 
 3. *#meme* _<teks atas>_ | _<teks bawah>_
-Untuk membuat meme dengan teks atas dan bawah
-Penggunaan: kirim gambar dengan caption _*#meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
+Para criar um meme com texto superior e inferior
+Usar: enviar fotos com legendas _*#meme em cima | em baixo*_, ou você também pode responder a uma imagem existente.
 
 4. *#ceklokasi*
-Cek lokasi penyebaran covid-19 di daerah sekitarmu (kelurahan).
-Penggunaan: kirimkan lokasimu lalu balas/quote/reply lokasi yang kamu kirim dengan _*#ceklokasi*_
+Verifique a localização da propagação de covid-19 na área ao seu redor (sub distrito).
+Usar: envie a sua localização e, em seguida, responda / cite / responda à localização que enviou com _*#ceklokasi*_
 
 5. *#tnc*
-Menampilkan Syarat dan Kondisi Bot.
+Exibe os termos e condições do bot.
 
 6. *#donasi*
-menampilkan informasi donasi.
+exibir informações de doação.
 
-Hope you have a great day!✨`
+Se hoje foi ruim amanha vai ser pior!✨`
 }
 
 exports.textAdmin = () => {
